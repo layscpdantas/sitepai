@@ -3,7 +3,7 @@
 body{
     font-family: arial, helvetica, sans-serif;
     font-size: 12px;
-    background-color: #f8f1ff;
+    background-color: #f8f1ffc4;
     margin: auto;
     }
 
@@ -64,4 +64,12 @@ div.bloco {
     height: 650px;
     margin-bottom: 2px;
     margin-left: 0px;
+}
+
+div#rodape {
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+    font-size: 18px;
 }
