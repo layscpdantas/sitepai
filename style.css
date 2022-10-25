@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    }
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#menu {
+    width: auto;
+    height: 60px;
+    background-color: #3a5683;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  li a:hover {
+    background-color: #f8f1ffc4;
+    color: yellow;
+  }
+
+.comecosite {
+    margin-bottom: 20px;
+}
+
+#comecosite {
+    width: auto;
+    height: 500px;
+    background-image:url("img/fundoinicio.jpg");
+    margin-bottom: 20px;
+}
+#comecosite h1 {
+    color: white;
+}
