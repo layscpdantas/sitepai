@@ -3,19 +3,21 @@
 body{
     font-family: arial, helvetica, sans-serif;
     font-size: 12px;
+    background-color: #f8f1ff;
+    margin: auto;
     }
 
 h1 {
-    font-size: 3em;
+    font-size: 5em;
     margin: 0;
+    padding: 15px 30px;
 }
 
 #menu {
     width: auto;
     height: 60px;
     background-color: #3a5683;
-    border: 1px solid black;
-    margin-top: 0px;
+    margin-top: 0.15px;
 }
 
 ul {
@@ -29,7 +31,7 @@ li {
     float:right;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
     font-weight: bold;
@@ -39,21 +41,27 @@ li {
     font-size: 24px;
   }
   
-  li a:hover {
+li a:hover {
     background-color: #f8f1ffc4;
     color: yellow;
   }
 
-.comecosite {
+#comecosite {
     margin-bottom: 20px;
 }
 
 #comecosite {
-    width: auto;
-    height: 500px;
-    background-image:url("img/fundoinicio.jpg");
+    background-image:url("img/fundoinicio1.jpg");
     margin-bottom: 20px;
 }
+
 #comecosite h1 {
     color: white;
+}
+
+div.bloco {
+    width: auto;
+    height: 650px;
+    margin-bottom: 2px;
+    margin-left: 0px;
 }
