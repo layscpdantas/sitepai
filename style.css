@@ -1,89 +1,87 @@
 @charset "utf-8";
 
 body{
-    font-family: arial, helvetica, sans-serif;
-    font-size: 12px;
-    background-color: #f8f1ffc4;
-    margin: auto;
+    font-family:arial, helvetica, sans-serif;
+    font-size:12px;
+    background-color:#f8f1ffc4;
+    margin:auto;
     }
 
 h1 {
-    font-size: 5em;
-    margin: 0;
-    padding: 15px 30px;
+    font-size:5em;
+    margin:0;
+    padding:15px 30px;
 }
 
 div.bloco {
-    width: auto;
-    height: 650px;
-    margin-bottom: 2px;
-    margin-left: 0px;
+    width:auto;
+    height:650px;
+    margin-bottom:2px;
+    margin-left:0px;
 }
 
 #menu {
-    height: 60px;
-    background-color: #3a5683;
-    margin-top: 0.15px;
+    height:60px;
+    background-color:#3a5683;
+    margin-top:0.15px;
 }
 
 ul {
     list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display:flex;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    justify-content: end;
 }
-
-li {
-    float:right;
-  }
-  
+ 
 li a {
-    display: block;
-    color: white;
-    font-weight: bold;
-    text-align: right;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 24px;
+    display:block;
+    color:white;
+    font-weight:bold;
+    text-align:right;
+    padding:16px;
+    text-decoration:none;
+    font-size:24px;
   }
   
 li a:hover {
-    background-color: #f8f1ffc4;
-    color: yellow;
+    background-color:#f8f1ffc4;
+    color:yellow;
   }
 
 div#comecosite {
-    margin-bottom: 20px;
+    margin-bottom:20px;
     background-image:url("img/fundoinicio1.jpg");
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom:20px;
+    color:white;
 }
 
 div#sobreempresa {
-    margin-bottom: 20px;
-    background-color: rgb(82, 82, 189);
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom:20px;
+    background-color:rgb(82, 82, 189);
+    margin-bottom:20px;
+    color:white;
 }
 
 div#servicos {
-    margin-bottom: 20px;
+    margin-bottom:20px;
     background-color:rgb(104, 104, 158);
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom:20px;
+    color:white;
 }
 
 div#contato {
-    margin-bottom: 20px;
+    margin-bottom:20px;
     background-color:yellow;
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom:20px;
+    color:white;
 }
 
 div#rodape {
-    padding: 5px;
-    text-align: center;
-    background-color: red;
-    font-weight: bold;
-    font-size: 18px;
+    padding:5px;
+    text-align:center;
+    background-color:red;
+    font-weight:bold;
+    font-size:18px;
 }
