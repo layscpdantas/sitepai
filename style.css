@@ -13,8 +13,14 @@ h1 {
     padding: 15px 30px;
 }
 
-#menu {
+div.bloco {
     width: auto;
+    height: 650px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+#menu {
     height: 60px;
     background-color: #3a5683;
     margin-top: 0.15px;
@@ -48,23 +54,12 @@ li a:hover {
 
 #comecosite {
     margin-bottom: 20px;
-}
-
-#comecosite {
     background-image:url("img/fundoinicio1.jpg");
     margin-bottom: 20px;
-}
-
-#comecosite h1 {
     color: white;
 }
 
-div.bloco {
-    width: auto;
-    height: 650px;
-    margin-bottom: 2px;
-    margin-left: 0px;
-}
+
 
 div#rodape {
     padding: 5px;
@@ -72,8 +67,4 @@ div#rodape {
     background-color: red;
     font-weight: bold;
     font-size: 18px;
-}
-
-#titulodosblocos {
-    font-size: 15px;
 }
